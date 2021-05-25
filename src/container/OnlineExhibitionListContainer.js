@@ -6,9 +6,6 @@ import { useHistory } from 'react-router-dom';
 import { Paths } from '../paths';
 
 
-import { getUserAccessCount } from '../api/AccessAPI';
-
-
 const OnlineExhibitionListContainer = ({ type, items, loading, swiper, firstOpen }) => {
 
     const URL = "http://14.63.174.102:84";
@@ -230,8 +227,6 @@ const OnlineExhibitionListContainer = ({ type, items, loading, swiper, firstOpen
                     </span>
                 </div>
                 <p><img src={`${process.env.PUBLIC_URL}/img/img_com.png`} alt="" /></p>
-                
-                <p className="view_count"> 오늘 방문자 : <span className="user_count_text"></span></p>
             </div>
             {!loading &&
                 <div className={"right_section" + current_pack.css}>
