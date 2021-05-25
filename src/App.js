@@ -8,6 +8,7 @@ import ConferencePage from './pages/ConferencePage';
 import WelcomingPage from './pages/WelcomingPage';
 import NoticeListPage from './pages/NoticeListPage'
 import SNSPage from './pages/SNSPage'
+import EventSummaryPage from './pages/EventSummaryPage'
 
 import DialogContainer from './container/assets/DialogContainer';
 import LoadingContainer from './container/assets/LoadingContainer';
@@ -54,6 +55,7 @@ const App = ({ match }) => {
             <div className={language}>
                 <Header />
                 <Switch>
+                    <Route path={STATE_PATH + Paths.summary} component={EventSummaryPage} />
                     <Route path={STATE_PATH + Paths.index} component={HomePage} exact />
                     <Route path={STATE_PATH + Paths.exhibition + '/:index?'} component={OnlineExhibitionPage} />
                     <Route path={STATE_PATH + Paths.conference} component={ConferencePage} />

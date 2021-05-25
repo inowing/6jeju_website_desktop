@@ -227,6 +227,7 @@ const OnlineExhibitionListContainer = ({ type, items, loading, swiper, firstOpen
                     </span>
                 </div>
                 <p><img src={`${process.env.PUBLIC_URL}/img/img_com.png`} alt="" /></p>
+                <p><p className="view_count"> 오늘 방문자 : <span className="user_count_text"></span></p></p>
             </div>
             {!loading &&
                 <div className={"right_section" + current_pack.css}>

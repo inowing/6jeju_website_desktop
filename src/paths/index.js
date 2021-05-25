@@ -1,6 +1,7 @@
 export const Paths = {
     index: '/',
     exhibition: '/Online-Exhibition',
+    summary: '/Event-Summary',
     session: '/Opening-Session',
     conference: '/Conference',
     notice: '/Notice',

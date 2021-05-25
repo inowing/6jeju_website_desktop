@@ -22,6 +22,15 @@ const Header = () => {
 
     const [navList, setNavList] = useState([
         {
+            id: 0,
+            kr: "행사 개요",
+            en: "행사 개요",
+            cn: "중국어",
+            jp: "일본어",
+            path: Paths.summary,
+            checked: false
+        },
+        {
             id: 1,
             kr: "오프닝세션",
             en: "Opening-Session",
