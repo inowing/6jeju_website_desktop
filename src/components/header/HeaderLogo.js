@@ -37,7 +37,7 @@ setTimeout(function(){
             <h1>
                 <Link to="/" onClick={setDefault} >
                     <img src={`${process.env.PUBLIC_URL}/img/h1_logo.png`} alt="" />
-                    <img src={`${process.env.PUBLIC_URL}/img/h1_logo_txt.png`} alt="" />
+                    <img className={"h1_logo_txt"} src={`${process.env.PUBLIC_URL}/img/h1_logo_txt.png`} alt="" />
                 </Link>
             </h1>
             <div className={"select" + current_pack.css}>

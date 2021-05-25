@@ -1574,7 +1574,8 @@ a.btclose {
     padding: 60px;
     font-size: 20px;
     line-height: 150%;
-    color: #948f8f
+    color: #948f8f;
+    white-space: pre-wrap;
 }
 
 .noticeview .viewcontent > img {
@@ -1868,9 +1869,12 @@ p.view_count {
 }
 
 .summary_table {
-    font-size: 19px;
+    font-size: 17px;
     max-width: 750px;
     margin: 0 auto;
+    line-height: 25px;
+    margin-top: 10px;
+
 }
 
 .summary_table .right_td {
@@ -1879,6 +1883,19 @@ p.view_count {
 
 .summary_table .left_td {
     font-weight: bold;
-    width: 150px;
+    width: 88px;
     white-space: break-spaces;
+}
+
+img.summary_image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+img.h1_logo_txt {
+    max-width: 500px;
 }
