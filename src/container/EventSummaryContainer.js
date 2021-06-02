@@ -67,7 +67,7 @@ export default () => {
 					</tr>
 					<tr>
 						<td className={"left_td"}>• 주      관</td>
-						<td className={"right_td"}>제주농업농촌6차산업지원센터, ㈜제주국제컨벤션센터, 제주의소리, 제주 CBS</td>
+						<td className={"right_td"}>㈜제주국제컨벤션센터, 제주농업농촌6차산업지원센터, 제주의소리, 제주 CBS</td>
 					</tr>
 					<tr>
 						<td className={"left_td"}>• 정      보</td>
